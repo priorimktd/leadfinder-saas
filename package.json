@@ -1,0 +1,28 @@
+{
+  "name": "leadfinder-saas",
+  "version": "1.0.0",
+  "description": "B2B Lead Prospecting Engine & SaaS Dashboard - Google Maps Lead Hunter",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "server": "tsx src/server.ts",
+    "cli": "tsx src/index.ts",
+    "build:client": "npm --prefix client run build",
+    "dev": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "playwright": "^1.50.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
